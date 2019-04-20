@@ -1,0 +1,12 @@
+if TARGET_NOVASOMP
+
+config SYS_BOARD
+	default "novasomp"
+
+config SYS_VENDOR
+       default "novasis"
+
+config SYS_CONFIG_NAME
+	default "novasomp"
+
+endif

@@ -1,0 +1,6 @@
+NOVASOMS BOARD
+M:	Filippo Visocchi <filippo.visocchi@novasomindustries.com>
+S:	Maintained
+F:	board/novasoms/
+F:	include/configs/novasoms.h
+F:	configs/novasoms_defconfig

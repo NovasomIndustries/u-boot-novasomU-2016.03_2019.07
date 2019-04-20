@@ -1,0 +1,29 @@
+U-Boot for NOVAsom S
+--------------------
+
+This file contains information for the port of U-Boot to the NOVAsom S.
+
+NOVAsom S is a board that has three variants based on the following
+SoCs: mx6 quad, mx6 dual lite and mx6 solo.
+
+For more details about NOVAsom S, please refer to:
+http://www.novasomindustries.org/
+
+Building U-boot for NOVAsom S
+-----------------------------
+
+To build U-Boot for the NOVAsom S:
+
+$ make novasoms_config
+$ make
+
+Flashing U-boot into the SD card
+--------------------------------
+
+- After the 'make' command completes, the generated 'SPL' binary must be
+flashed into the SD card;
+  $ ./flash
+
+- Connect the serial cable to the host PC
+
+- Power up the board and U-boot messages will appear in the serial console.

@@ -1,0 +1,12 @@
+if TARGET_NOVASOMU
+
+config SYS_BOARD
+       default "novasomu"
+
+config SYS_VENDOR
+       default "novasis"
+
+config SYS_CONFIG_NAME
+       default "novasomu"
+
+endif
